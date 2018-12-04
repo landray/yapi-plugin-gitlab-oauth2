@@ -25,7 +25,11 @@
 | clientSecret | Gitlab clientSecret,获取同上 |
 | redirectUri | Gitlab callback URI,获取同上；注意：路径必须为/api/user/login_by_token |
 
-第二步：在config.json 这层目录下运行 ```yapi plugin --name yapi-plugin-gitlab-oauth2```   重新下载插件  
+第二步：在根目录下执行如下命令下载插件
+
+```bash
+npm install https://github.com/landray/yapi-plugin-gitlab-oauth2.git 
+```
 
 第三步：重启服务器
 

@@ -25,7 +25,7 @@
       "host" : "http://example.gitlab.com.cn",
       "clientId" : "",
       "clientSecret" : "",
-      "redirectUri" : "http://example.yapi.com.cn/api/plugin/gitlab-oauth2/authorize"
+      "redirectUri" : "http://example.yapi.com.cn/api/user/login_by_token"
     }
   }]
 }
