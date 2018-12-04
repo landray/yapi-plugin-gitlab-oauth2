@@ -50,7 +50,7 @@ module.exports = function(options = {}){
   		request(userApiUri, (error, response, body) => {
   			if(!error && response.statusCode === 200){
   				let result = JSON.parse(body)
-  				resolve({ email : result.email, username : result.username })
+  				resolve({ email : result.email, username : result.name })
   			}else{
   				reject(error)
   			}
