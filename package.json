@@ -1,5 +1,5 @@
 {
-  "name": "yapi-plugin-gitlab-oauth2",
+  "name": "@toolkit/yapi-plugin-gitlab-oauth2",
   "author": "Landray",
   "version": "1.0.0",
   "main": "index.js",
