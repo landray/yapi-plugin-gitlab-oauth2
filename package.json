@@ -3,6 +3,9 @@
   "author": "Landray",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts" : {
+    "npublish" : "npm publish --registry http://npm.landray.com.cn"
+  },
   "keywords": [
     "yapi",
     "plugin",
